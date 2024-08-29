@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", system-ui;
+}
+
+body{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing:.04rem;
+}
+
+.upper-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    background-color: #6943FF;
+    color: white;
+}
+
+.upper-container>button{
+    background-color: white;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+h4{
+    margin: 2rem;
+    color: #443b5d;
+    font-size: 1.4rem;
+}
+
+.lower-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lower-container1{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 9rem;
+    background-color: #FFFFFF;
+    border-radius: 
+    4.68px, 0px, 0px, 0px;
+}
+
+.lower-container2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 9rem;
+    background-color: #FFFFFF;
+    border-radius: 
+    4.68px, 0px, 0px, 0px;
+}
+
+.lower-container3{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 9rem;
+    background-color: #FFFFFF;
+    border-radius:     4.68px, 0px, 0px, 0px;;
+ 
+}
+
+input[type="text"]{
+    margin: 1.5rem;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 2px solid #B295FF;
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+
+body.night-mode {
+    background-color: #000000;         
+}
+
+.night-mode .lower-container1,.night-mode .lower-container2,.night-mode .lower-container3 {
+    background-color:#273549;   
+}
+
+.night-mode p{
+    color: white;
+}
+
+.night-mode h4{
+    color: white;
+}
